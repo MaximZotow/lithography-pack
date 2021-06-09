@@ -1,0 +1,63 @@
+\usepackage[utf8]{inputenc}
+\usepackage[T2A]{fontenc}
+\usepackage[english,russian]{babel}
+%\usepackage{fontspec}
+%\setmainfont{Times New Roman} 
+\usepackage[unicode]{hyperref}
+\usepackage[left=2cm,right=1cm, top=2cm, bottom=2cm]{geometry}
+\linespread{1.5}
+\usepackage{indentfirst}
+\usepackage{amssymb}
+\usepackage{cmap}
+\usepackage[]{graphicx}
+\usepackage{hyperref}
+\usepackage{array}
+\usepackage{wrapfig}
+\usepackage{longtable}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage{amsmath}
+\usepackage{float}
+\usepackage{mathtools}
+\usepackage{icomma}
+
+\usepackage{xcolor}
+\usepackage{animate}
+%\numberwithin{equ`tion}{section}
+\newcommand{\ten}[1]{\cdot 10^{#1}}
+\hypersetup{
+	colorlinks,
+	citecolor=black,
+	filecolor=black,
+	linkcolor=black,
+	urlcolor=blue
+}
+
+\usepackage{pdfpages}
+\newcommand{\whr}{\text{, где}}
+\newcommand{\razm}[1]{\hspace{1ex} \ensuremath{\left[\text{#1}\right]}}
+\newcommand{\rbf}[1]{\textbf{\ref{#1}}}
+\newcommand{\prf}[1]{стр. \textbf{\pageref{#1}}}
+\newenvironment{aleq}{\begin{equation}\begin{aligned}}{\end{aligned}\end{equation}}
+\renewcommand{\geq}{\geqslant}
+\renewcommand{\leq}{\leqslant}
+\newcommand{\rt}[1]{_\text{#1}}
+\newcommand{\mm}{\razm{мм}}
+\newcommand{\helmholtz}{\ensuremath{\left(\Delta+k^2\right) U(x)=0}}
+\renewcommand{\phi}{\varphi}
+\renewcommand{\epsilon}{\varepsilon}
+\newcommand{\Uxt}{U(x,t)}
+\newcommand{\Ux}{U(x)}
+\newcommand{\Ut}{U(t)}
+\newcommand{\pder}[3]{\ensuremath{\frac{\partial^{#1}#2}{\partial {#3}^{#1}}}}
+\newcommand{\ugol}{\ensuremath{\omega t - kx +\phi}}
+\newcommand{\ee}[1]{\ensuremath{e^{#1}}}
+\newcommand{\eex}{\ee{i(-kx+\phi)}}
+\newcommand{\eet}{\ee{i\omega t}}
+\newcommand{\umnoj}{\ensuremath{\left[\Ux\cdot \Ut\right]}}
+
+\newcommand{\CE}[1]{\ensuremath{C(\xi_{#1})}}
+\newcommand{\SE}[1]{\ensuremath{S(\xi_{#1})}}
+\newcommand{\CN}[1]{\ensuremath{C(\eta_{#1})}}
+\newcommand{\SN}[1]{\ensuremath{S(\eta_{#1})}}
+\newcommand{\rz}[1]{\left(\frac{\rho}{z}\right)^{#1}}

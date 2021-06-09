@@ -1,0 +1,54 @@
+\usepackage[utf8]{inputenc}
+\usepackage[T2A]{fontenc}
+\usepackage[english,russian]{babel}
+%\usepackage{fontspec}
+%\setmainfont{Times New Roman} 
+\usepackage[unicode]{hyperref}
+\usepackage[left=2cm,right=1cm, top=2cm, bottom=2cm]{geometry}
+\linespread{1.5}
+\usepackage{indentfirst}
+\usepackage{amssymb}
+\usepackage{cmap}
+\usepackage[]{graphicx}
+\usepackage{hyperref}
+\usepackage{array}
+\usepackage{wrapfig}
+\usepackage{longtable}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage{amsmath}
+\usepackage{float}
+\usepackage{mathtools}
+\usepackage{icomma}
+\usepackage{caption}
+\captionsetup{labelsep=period}
+\usepackage{xcolor}
+\usepackage{animate}
+%\numberwithin{equ`tion}{section}
+\newcommand{\ten}[1]{\cdot 10^{#1}}
+\hypersetup{
+	colorlinks,
+	citecolor=black,
+	filecolor=black,
+	linkcolor=black,
+	urlcolor=blue
+}
+
+\usepackage{pdfpages}
+\newcommand{\whr}{\text{, где}}
+\newcommand{\razm}[1]{\hspace{1ex} \ensuremath{\left[\text{#1}\right]}}
+\newcommand{\rbf}[1]{\textbf{\ref{#1}}}
+\newcommand{\refris}[1]{рис. \rbf{#1}}
+\newcommand{\prf}[1]{стр. \textbf{\pageref{#1}}}
+\newenvironment{aleq}{\begin{equation}\begin{aligned}}{\end{aligned}\end{equation}}
+\renewcommand{\geq}{\geqslant}
+\renewcommand{\leq}{\leqslant}
+\newcommand{\rt}[1]{_\text{#1}}
+\newcommand{\mm}{\razm{мм}}
+
+\renewcommand{\phi}{\varphi}
+\renewcommand{\epsilon}{\varepsilon}
+
+\newcommand{\an}[2]{a_{#1}\cos \left({#2}\frac{2\pi x}{P}\right)}
+\newcommand{\bn}[2]{b_{#1}\sin \left({#2}\frac{2\pi x}{P}\right)}
+\newcommand{\mtrig}[2]{\frac{2}{{#2}\pi}{#1}\left({#2}\frac{2\pi x}{P}\right)}

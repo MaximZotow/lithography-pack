@@ -1,0 +1,837 @@
+# Created by Octave 6.1.0, Sat Mar 06 21:13:48 2021 MSK <max@max-pc>
+# name: A
+# type: scalar
+0.44
+
+
+# name: P
+# type: scalar
+1
+
+
+# name: R
+# type: matrix
+# rows: 1
+# columns: 4
+ 0 0.27272727272727271 0.54545454545454541 0.81818181818181812
+
+
+# name: T
+# type: matrix
+# rows: 1
+# columns: 4
+ 1 0.6571069200056 0.34167223251882323 0.090484848867491016
+
+
+# name: W
+# type: scalar
+0.5
+
+
+# name: X
+# type: range
+# base, limit, increment
+-0.5 0.5 0.01
+
+
+# name: Y
+# type: matrix
+# rows: 1
+# columns: 101
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+
+
+# name: a0
+# type: scalar
+0.5
+
+
+# name: b1
+# type: scalar
+0.63661977236758149
+
+
+# name: bi
+# type: scalar
+0.12732395447351624
+
+
+# name: buf
+# type: function handle
+@<anonymous>
+@(x) f {i} (x)
+# length: 2
+# name: f
+# type: cell
+# rows: 3
+# columns: 1
+# name: <cell-element>
+# type: function handle
+@<anonymous>
+@(x) (b1 .* sin (2 * pi * x / P))
+# length: 2
+# name: P
+# type: scalar
+1
+
+
+# name: b1
+# type: scalar
+0.63661977236758149
+
+
+
+
+# name: <cell-element>
+# type: function handle
+@<anonymous>
+@(x) (bi * sin (2 * pi * j * x / P))
+# length: 3
+# name: P
+# type: scalar
+1
+
+
+# name: bi
+# type: scalar
+0.21220659078919391
+
+
+# name: j
+# type: scalar
+3
+
+
+
+
+# name: <cell-element>
+# type: function handle
+@<anonymous>
+@(x) (bi * sin (2 * pi * j * x / P))
+# length: 3
+# name: P
+# type: scalar
+1
+
+
+# name: bi
+# type: scalar
+0.12732395447351624
+
+
+# name: j
+# type: scalar
+5
+
+
+
+
+
+
+
+# name: i
+# type: scalar
+3
+
+
+
+
+# name: checker
+# type: scalar
+4
+
+
+# name: contrast_ratio
+# type: scalar
+0.71468609396544558
+
+
+# name: counter
+# type: scalar
+4
+
+
+# name: f
+# type: cell
+# rows: 3
+# columns: 1
+# name: <cell-element>
+# type: function handle
+@<anonymous>
+@(x) (b1 .* sin (2 * pi * x / P))
+# length: 2
+# name: P
+# type: scalar
+1
+
+
+# name: b1
+# type: scalar
+0.63661977236758149
+
+
+
+
+# name: <cell-element>
+# type: function handle
+@<anonymous>
+@(x) (bi * sin (2 * pi * j * x / P))
+# length: 3
+# name: P
+# type: scalar
+1
+
+
+# name: bi
+# type: scalar
+0.21220659078919391
+
+
+# name: j
+# type: scalar
+3
+
+
+
+
+# name: <cell-element>
+# type: function handle
+@<anonymous>
+@(x) (bi * sin (2 * pi * j * x / P))
+# length: 3
+# name: P
+# type: scalar
+1
+
+
+# name: bi
+# type: scalar
+0.12732395447351624
+
+
+# name: j
+# type: scalar
+5
+
+
+
+
+
+
+
+# name: filename_fig
+# type: sq_string
+# elements: 1
+# length: 6
+fig2-3
+
+
+# name: filename_fig1
+# type: sq_string
+# elements: 1
+# length: 10
+fig1-4.pdf
+
+
+# name: filename_fig2
+# type: sq_string
+# elements: 1
+# length: 10
+fig2-3.pdf
+
+
+# name: filename_fig3
+# type: string
+# elements: 1
+# length: 7
+fpm.pdf
+
+
+# name: fsum
+# type: function handle
+@<anonymous>
+@(x) fsum (x) + T (i + 1) * f {i} (x)
+# length: 4
+# name: T
+# type: matrix
+# rows: 1
+# columns: 4
+ 1 0.6571069200056 0.34167223251882323 0.090484848867491016
+
+
+# name: f
+# type: cell
+# rows: 3
+# columns: 1
+# name: <cell-element>
+# type: function handle
+@<anonymous>
+@(x) (b1 .* sin (2 * pi * x / P))
+# length: 2
+# name: P
+# type: scalar
+1
+
+
+# name: b1
+# type: scalar
+0.63661977236758149
+
+
+
+
+# name: <cell-element>
+# type: function handle
+@<anonymous>
+@(x) (bi * sin (2 * pi * j * x / P))
+# length: 3
+# name: P
+# type: scalar
+1
+
+
+# name: bi
+# type: scalar
+0.21220659078919391
+
+
+# name: j
+# type: scalar
+3
+
+
+
+
+# name: <cell-element>
+# type: function handle
+@<anonymous>
+@(x) (bi * sin (2 * pi * j * x / P))
+# length: 3
+# name: P
+# type: scalar
+1
+
+
+# name: bi
+# type: scalar
+0.12732395447351624
+
+
+# name: j
+# type: scalar
+5
+
+
+
+
+
+
+
+# name: fsum
+# type: function handle
+@<anonymous>
+@(x) fsum (x) + T (i + 1) * f {i} (x)
+# length: 4
+# name: T
+# type: matrix
+# rows: 1
+# columns: 4
+ 1 0.6571069200056 0.34167223251882323 0.090484848867491016
+
+
+# name: f
+# type: cell
+# rows: 3
+# columns: 1
+# name: <cell-element>
+# type: function handle
+@<anonymous>
+@(x) (b1 .* sin (2 * pi * x / P))
+# length: 2
+# name: P
+# type: scalar
+1
+
+
+# name: b1
+# type: scalar
+0.63661977236758149
+
+
+
+
+# name: <cell-element>
+# type: function handle
+@<anonymous>
+@(x) (bi * sin (2 * pi * j * x / P))
+# length: 3
+# name: P
+# type: scalar
+1
+
+
+# name: bi
+# type: scalar
+0.21220659078919391
+
+
+# name: j
+# type: scalar
+3
+
+
+
+
+# name: <cell-element>
+# type: function handle
+@<anonymous>
+@(x) (bi * sin (2 * pi * j * x / P))
+# length: 3
+# name: P
+# type: scalar
+1
+
+
+# name: bi
+# type: scalar
+0.12732395447351624
+
+
+# name: j
+# type: scalar
+5
+
+
+
+
+
+
+
+# name: fsum
+# type: function handle
+@<anonymous>
+@(x) fsum (x) + T (i + 1) * f {i} (x)
+# length: 4
+# name: T
+# type: matrix
+# rows: 1
+# columns: 4
+ 1 0.6571069200056 0.34167223251882323 0.090484848867491016
+
+
+# name: f
+# type: cell
+# rows: 3
+# columns: 1
+# name: <cell-element>
+# type: function handle
+@<anonymous>
+@(x) (b1 .* sin (2 * pi * x / P))
+# length: 2
+# name: P
+# type: scalar
+1
+
+
+# name: b1
+# type: scalar
+0.63661977236758149
+
+
+
+
+# name: <cell-element>
+# type: function handle
+@<anonymous>
+@(x) (bi * sin (2 * pi * j * x / P))
+# length: 3
+# name: P
+# type: scalar
+1
+
+
+# name: bi
+# type: scalar
+0.21220659078919391
+
+
+# name: j
+# type: scalar
+3
+
+
+
+
+# name: <cell-element>
+# type: function handle
+@<anonymous>
+@(x) (bi * sin (2 * pi * j * x / P))
+# length: 3
+# name: P
+# type: scalar
+1
+
+
+# name: bi
+# type: scalar
+0.12732395447351624
+
+
+# name: j
+# type: scalar
+5
+
+
+
+
+
+
+
+# name: fsum
+# type: function handle
+@<anonymous>
+@(x) a0
+# length: 1
+# name: a0
+# type: scalar
+0.5
+
+
+
+
+# name: i
+# type: scalar
+1
+
+
+
+
+# name: i
+# type: scalar
+2
+
+
+
+
+# name: i
+# type: scalar
+3
+
+
+
+
+# name: i
+# type: scalar
+3
+
+
+# name: j
+# type: scalar
+5
+
+
+# name: j_val
+# type: matrix
+# rows: 1
+# columns: 3
+ 2 4 6
+
+
+# name: k
+# type: scalar
+3
+
+
+# name: ki
+# type: scalar
+3
+
+
+# name: lambda
+# type: scalar
+0.23999999999999999
+
+
+# name: n
+# type: scalar
+1000
+
+
+# name: nlim
+# type: scalar
+3
+
+
+# name: stepper
+# type: range
+# base, limit, increment
+0 3 1
+
+
+# name: sum_func
+# type: function handle
+@<anonymous>
+@(x) sum_func (x) + buf (x)
+# length: 2
+# name: buf
+# type: function handle
+@<anonymous>
+@(x) f {i} (x)
+# length: 2
+# name: f
+# type: cell
+# rows: 3
+# columns: 1
+# name: <cell-element>
+# type: function handle
+@<anonymous>
+@(x) (b1 .* sin (2 * pi * x / P))
+# length: 2
+# name: P
+# type: scalar
+1
+
+
+# name: b1
+# type: scalar
+0.63661977236758149
+
+
+
+
+# name: <cell-element>
+# type: function handle
+@<anonymous>
+@(x) (bi * sin (2 * pi * j * x / P))
+# length: 3
+# name: P
+# type: scalar
+1
+
+
+# name: bi
+# type: scalar
+0.21220659078919391
+
+
+# name: j
+# type: scalar
+3
+
+
+
+
+# name: <cell-element>
+# type: function handle
+@<anonymous>
+@(x) (bi * sin (2 * pi * j * x / P))
+# length: 3
+# name: P
+# type: scalar
+1
+
+
+# name: bi
+# type: scalar
+0.12732395447351624
+
+
+# name: j
+# type: scalar
+5
+
+
+
+
+
+
+
+# name: i
+# type: scalar
+3
+
+
+
+
+# name: sum_func
+# type: function handle
+@<anonymous>
+@(x) sum_func (x) + buf (x)
+# length: 2
+# name: buf
+# type: function handle
+@<anonymous>
+@(x) f {i} (x)
+# length: 2
+# name: f
+# type: cell
+# rows: 3
+# columns: 1
+# name: <cell-element>
+# type: function handle
+@<anonymous>
+@(x) (b1 .* sin (2 * pi * x / P))
+# length: 2
+# name: P
+# type: scalar
+1
+
+
+# name: b1
+# type: scalar
+0.63661977236758149
+
+
+
+
+# name: <cell-element>
+# type: function handle
+@<anonymous>
+@(x) (bi * sin (2 * pi * j * x / P))
+# length: 3
+# name: P
+# type: scalar
+1
+
+
+# name: bi
+# type: scalar
+0.21220659078919391
+
+
+# name: j
+# type: scalar
+3
+
+
+
+
+# name: <cell-element>
+# type: function handle
+@<anonymous>
+@(x) (bi * sin (2 * pi * j * x / P))
+# length: 3
+# name: P
+# type: scalar
+1
+
+
+# name: bi
+# type: scalar
+0.12732395447351624
+
+
+# name: j
+# type: scalar
+5
+
+
+
+
+
+
+
+# name: i
+# type: scalar
+2
+
+
+
+
+# name: sum_func
+# type: function handle
+@<anonymous>
+@(x) sum_func (x) + buf (x)
+# length: 2
+# name: buf
+# type: function handle
+@<anonymous>
+@(x) f {i} (x)
+# length: 2
+# name: f
+# type: cell
+# rows: 3
+# columns: 1
+# name: <cell-element>
+# type: function handle
+@<anonymous>
+@(x) (b1 .* sin (2 * pi * x / P))
+# length: 2
+# name: P
+# type: scalar
+1
+
+
+# name: b1
+# type: scalar
+0.63661977236758149
+
+
+
+
+# name: <cell-element>
+# type: function handle
+@<anonymous>
+@(x) (bi * sin (2 * pi * j * x / P))
+# length: 3
+# name: P
+# type: scalar
+1
+
+
+# name: bi
+# type: scalar
+0.21220659078919391
+
+
+# name: j
+# type: scalar
+3
+
+
+
+
+# name: <cell-element>
+# type: function handle
+@<anonymous>
+@(x) (bi * sin (2 * pi * j * x / P))
+# length: 3
+# name: P
+# type: scalar
+1
+
+
+# name: bi
+# type: scalar
+0.12732395447351624
+
+
+# name: j
+# type: scalar
+5
+
+
+
+
+
+
+
+# name: i
+# type: scalar
+1
+
+
+
+
+# name: sum_func
+# type: function handle
+@<anonymous>
+@(x) 0
+
+
+
+
+
+
+
+
